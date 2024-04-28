@@ -1,0 +1,21 @@
+# Read in times for swimming, cycling and running
+swimming_time = float(input("Enter time taken for swimming (in minutes): "))
+cycling_time = float(input("Enter time taken for cycling (in minutes): "))
+running_time = float(input("Enter time taken for running (in minutes): "))
+
+# Calculate total time taken to complete all three
+total_time = swimming_time + cycling_time + running_time
+
+# Determine the award based on the total time taken (All 3 activities)
+if total_time <= 100:
+    award = "Provincial colours"
+elif total_time <= 105:
+    award = "Provincial half colours"
+elif total_time <= 110:
+    award = "Provincial scroll"
+else:
+    award = "No award"
+
+# Display the award to participant 
+print("Total time taken:", total_time, "minutes")
+print("Award:", award)
