@@ -1,0 +1,10 @@
+# Ask the user to enter three different integers
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
+num3 = int(input("Enter the third integer: "))
+
+# Calculate and print the requested
+print("sum of all numers:", num1 + num2 + num3)
+print("first number minus second number:", num1 - num2)
+print("third number multiplied by first number:", num3 * num1)
+print("sum of all three numbers entered and divided by the third number:", (num1 + num2 + num3) / num3)
